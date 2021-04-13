@@ -8,11 +8,12 @@ import org.opencv.objdetect.Objdetect;
 public class Main {
     public static void main(String[] args) {
 
-        String sourceImagePath = "src/main/resources/face examples/input/2.jpg";
-        String targetImagePath = "src/main/resources/face examples/output/2out.jpg";
-
         OpenCV.loadShared();
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+
+        String sourceImagePath = "src/main/resources/face examples/input/1.jpg";
+        String targetImagePath = "src/main/resources/face examples/output/1out.jpg";
+
 
         Mat loadedImage = loadImage(sourceImagePath);
 
