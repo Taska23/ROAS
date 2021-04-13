@@ -11,8 +11,8 @@ public class Main {
         OpenCV.loadShared();
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
-        String sourceImagePath = "src/main/resources/face examples/input/1.jpg";
-        String targetImagePath = "src/main/resources/face examples/output/1out.jpg";
+        String sourceImagePath = "src/main/resources/face examples/input/7.jpg";
+        String targetImagePath = "src/main/resources/face examples/output/7out.jpg";
 
 
         Mat loadedImage = loadImage(sourceImagePath);
